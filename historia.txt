@@ -1,0 +1,2 @@
+texto de prueba para el comando git status el cual indicará que tenemos una diferencia entre.
+el estado inicial de la carpeta y el estado nuevo con la creación del archivo historia.txt.
