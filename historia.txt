@@ -1,2 +1,5 @@
 texto de prueba para el comando git status el cual indicará que tenemos una diferencia entre.
 el estado inicial de la carpeta y el estado nuevo con la creación del archivo historia.txt.
+
+git commit = si no se agrega un mensaje genera un error y el commit será abortado:
+En la versión presente de ubuntu abre el editor de texto nano, para guardar se debe presionar las teclas Ctrl + o, luego enter y Ctrl + x.
