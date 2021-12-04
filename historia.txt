@@ -3,3 +3,5 @@ el estado inicial de la carpeta y el estado nuevo con la creación del archivo h
 
 git commit = si no se agrega un mensaje genera un error y el commit será abortado:
 En la versión presente de ubuntu abre el editor de texto nano, para guardar se debe presionar las teclas Ctrl + o, luego enter y Ctrl + x.
+
+Modifica el archivo para test de push desde colaborador.
