@@ -1,1 +1,2 @@
-modificación el archivo Rocalinux
+modificación el archivo rocalinux
+modificación el archivo botmacros
