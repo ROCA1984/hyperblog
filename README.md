@@ -14,4 +14,5 @@ Posteriormente se agregarán las secciones para describir y detallar el código 
 
 Finalmente la web contendrá en distintas secciones con las instrucciones y pasos de la configuración básica para desplegarla en un servidor web y se estudiarán las opciones de Hosting gratuito para las pruebas.
 
+Creado para practicar.
 
