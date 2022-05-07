@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FUNDAMENTOS</title>
+</head>
+<body>
+    <p><h1>Formularios</h1></p>
+    <form action="">
+        <label for="dato1">Dato 1</label>
+        <input name="" id="dato1" type="text">
+        <input type="text" placeholder="Dato 2">
+        <label for="dato3">Dato 3</label>
+        <input id="dato3" type="text" placeholder="Dato 3">
+        <button type="submit">Agregar</button>
+    </form>
+    <br>
+    <hr>
+    <p><h1>Formulario Ejemplo envío</h1></p>
+    <form action="sitio-10_datos.html" method="GET">
+        <label for="dato1">Dato 1</label>
+        <input name="dato1" id="dato1" type="text" placeholder="Dato 1">
+        <label for="dato2">Dato 2</label>
+        <input name="dato2" id="dato2" type="text" placeholder="Dato 2">
+        <label for="dato3">Dato 3</label>
+        <input name="dato3" id="dato3" type="text" placeholder="Dato 3">
+        <button type="submit">Agregar</button>
+    </form>
+    <br>
+    <hr>
+    <p><h1>Tipos de Input</h1></p>
+    <form action="sitio-10_datos.html" method="GET">
+        <label for="dato1">Texto</label>
+        <input name="dato1" id="dato1" type="text" placeholder="Dato 1">
+        <br>
+        <br>
+        <label for="dato2">Email</label>
+        <input name="dato2" id="dato2" type="email" required placeholder="mail@domain.com">
+        <br>
+        <br>
+        <label for="dato3">Password</label>
+        <input name="dato3" id="dato3" type="password" placeholder="Dato 3">
+        <br>
+        <br>
+        <label for="dato4">Area de Texto</label>
+        <textarea name="dato4" id="dato4" placeholder="Dato 3" cols="50" rows="5">
+            Ingrese sus comentarios
+        </textarea>
+        <br>
+        <br>
+        <label for="dato5">Opción 1</label>
+        <input name="dato5" id="dato5" type="radio" value="Opción1">
+        <label for="dato6">Opción 2</label>
+        <input name="dato5" id="dato6" type="radio" value="Opción2">
+        <label for="dato7">Opción 3</label>
+        <input name="dato5" id="dato7" type="radio" value="Opción3">
+       <!--
+           Considerar que el atriburo name del input radio debe ser el mismo para todas las
+           alternativas, esto nos permite seleccionar una y solo una de las opciones y viajarán
+           a través del formulario con el nombre la variable name y contendra el atributo value 
+           que se haya configurado en la selección. 
+       -->
+        <br>
+        <br>
+        <label for="dato8">Selector de Color</label>
+        <input name="dato8" id="dato8" type="color">
+        <br>
+        <br>
+        <label for="dato9">Selector de Fecha</label>
+        <input name="dato9" id="dato9" type="date">
+        <br>
+        <br>
+        <label for="dato10">Selector de Archivo</label>
+        <input name="dato10" id="dato10" type="file">
+        <br>
+        <br>
+        <label for="dato11">Selector de Mes</label>
+        <input name="dato11" id="dato11" type="month">
+        <br>
+        <br>
+        <label for="dato12">Selector de Rango</label>
+        <input name="dato12" id="dato12" type="range">
+        <br>
+        <br>
+        <label for="dato13">Selector de Hora</label>
+        <input name="dato13" id="dato13" type="time">
+        <br>
+        <br>
+        <label for="dato14">Selector de Semana</label>
+        <input name="dato14" id="dato14" type="week">
+        <br>
+        <br>
+        <button type="submit">Agregar</button>
+    </form>
+    <br>
+    <hr>
+    <div id="navegador">          
+        <a href="/sitio-8.html">
+            <button>Anterior</button>
+        </a>
+        <a href="/sitio-11_CSS.html">
+            <button>Siguiente</button>
+        </a> 
+    </div>
+</body>
+</html>
