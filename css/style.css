@@ -1,0 +1,48 @@
+/*
+La sintxis funciona indicando el o los elementos del DOM ya sea a través de su etiqueta, clase o id y se aplican
+las cualidades entre las llaves, a través de el par clave : valor, considerar que si el elemento ya tiene un 
+atributo o cualidad dentro del archivo html ese atributo se superpondra a los atributos del archivo externo
+.css, existen 3 formas de agregar css una forma es directo en el html en cada elemento del DOM (no se recomienda
+es una mala práctica), la segunda forma es directo en el archivo html dentro del la etiqueta head abrir una
+etiqueta style (no se recomienda es una muy mala práctica) y la última forma es a través de un archivo externo 
+y linkearlo a través de la etiqueta link del head.
+*/
+h1{
+    font-size: 30px;
+    color: red;
+}
+h2{
+    font-size: 20px;
+    color: red;
+}
+
+/*
+Para Trabajar con colores existen 4 formas, la primera forma es travès del nombre descriptivo del color,
+por ejemplo rojo, verde, azul, amarillo.
+La segunda forma es a través del formato hexadecimal, para ello se requiere tener acceso a la paleta de
+colores en este formato.
+Y por ùltimo se puede asignar un color a un elemento a través del formato  rgb o rgba, la diferencia entre
+estos es que el ùltimo requiere un parámetro adicional que indica la transparencia del elemento, y para ambos
+esquemas se debe indicar la tonalidad RED , GREEN , BLUE 
+*/
+.caja p{
+    background-color: seagreen;
+}
+.caja{
+    border-color: rgb(15, 25, 54);
+    padding: 200 px;
+    margin: 200 px;
+    background-color: rgb(43, 5, 24);
+}
+#encabezado{
+    color: slateblue;
+}
+.subtitulo{
+    color: tomato;
+}
+/*
+La jerarquía que se aplica en CSS es establecida en la siguiente prioridad, primero va por id, luego por clase
+y al final por estilo general a través de los tags o etiquetas de html
+*/
+
+/*CAPTIULO 37*/
