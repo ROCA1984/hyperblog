@@ -1,0 +1,48 @@
+/*
+primary:#03045e
+secondary:#0077b6
+danger: #00b4d8
+info: #90e0ef
+otro: #caf0f8
+*/
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;  
+    background-color:#03045e ; 
+}
+.border{
+    border: 2px #03045e solid;
+}
+.h-700{
+    height: 700px;
+}
+
+.item{
+    background-color: #0077b6;
+    text-align: center;
+    border: 2px #03045e solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: #caf0f8;
+    width: 200px;
+}
+.h-300{
+    height: 300px;
+    padding-top: 50px; /*Si el padding está establecido anteriormente tomará ese valor, para sobreescribirlo
+    se debe indicar la propiedad posterior al final */
+}
+
+
+.flex-container{
+    display: flex; /*transforma sus dependencias en elementos flexibles*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; /*Requiere que el contenedor padre presente la propiedad heigth*/
+}
+
+/*CAPITULO 72*/

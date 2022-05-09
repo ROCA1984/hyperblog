@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sitio-13.css">
+    <title>CSS INTERMEDIO</title>
+</head>
+<body>
+
+    <h1>Border</h1>
+
+    <p class="border-solid">Lorem ipsum dolor sit.</p>
+    <p class="border-dashed display-inline">Lorem ipsum dolor sit.</p>
+    <a href="" class="border-solid display-block">click enlace</a>
+    <a href="" class="border-solid">click enlace</a>
+
+    <h1>Padding</h1>
+
+    <p class="border-solid pt-50">Lorem, ipsum dolor.</p>
+    <p class="border-solid pb-50">Lorem, ipsum dolor.</p>
+    <p class="border-solid px-100">Lorem, ipsum dolor.</p>
+    <p class="border-solid py-100">Lorem, ipsum dolor.</p>
+    <p class="border-solid p-linea">Lorem, ipsum dolor.</p>
+    <p class="border-solid p-40">Lorem, ipsum dolor.</p>
+    <p class="border-solid p-total">Lorem, ipsum dolor.</p>
+
+    <h1>Margin</h1>
+    
+    <p class="border-solid mt-50">Lorem, ipsum dolor.</p>
+    <p class="border-solid mb-50">Lorem, ipsum dolor.</p>
+    <p class="border-solid mx-100">Lorem, ipsum dolor.</p>
+    <p class="border-solid my-100">Lorem, ipsum dolor.</p>
+    <p class="border-solid m-linea">Lorem, ipsum dolor.</p>
+    <p class="border-solid m-40">Lorem, ipsum dolor.</p>
+    <p class="border-solid m-total">Lorem, ipsum dolor.</p>
+
+    <h1>Padding, Margin y Width</h1>
+
+    <p class="border-solid pt-50 mt-50 width-200">Lorem, ipsum dolor.</p>
+    <p class="border-solid pb-50 mb-50 width-200">Lorem, ipsum dolor.</p>
+    <p class="border-solid px-100 mx-100 width-200">Lorem, ipsum dolor.</p>
+    <p class="border-solid py-100 my-100 width-200">Lorem, ipsum dolor.</p>
+    <p class="border-solid p-linea m-linea width-200">Lorem, ipsum dolor.</p>
+    <a href="" class="border-solid p-40 m-40 width-200">Lorem, ipsum dolor.</a>
+    <a href="" class="border-solid m-total p-total width-200">Lorem, ipsum dolor.</a>
+    <br><br><br>
+    <h1>Width y Heigth</h1>
+
+    <p class="border-solid w-100">Lorem, ipsum dolor.</p>
+    <p class="border-solid w-100">Lorem ipsum dolor sit amet.</p>
+    <p class="border-solid w-300 h-200">Considerar que los elementos de línea se acomodarán uno al lado del otro en cambio los elementos de
+        bloque generan automáticamente un salto de página y se posicionan uno al lado del otro.
+    </p>
+
+    <h1>Inline-block (Alto y ancho para elementos de línea)</h1>
+
+    <a class="border-solid w-100 h-100 d-inline-block" href="">Enlace</a>
+    <a class="border-solid w-100 h-100 d-inline-block" href="">Enlace</a>
+    <p class="border-solid w-300 h-200">Considerar que los elementos de línea se acomodarán uno al lado del otro en cambio los elementos de
+        bloque generan automáticamente un salto de página y se posicionan uno al lado del otro.
+    </p>
+
+    <h1>Box Model</h1>
+
+    <p class="border-solid w-100 h-100">El Ancho total de un elemento html considera las propiedades css margin, border,
+        width y padding.
+    </p>
+    <p class="border-solid w-300 h-100">El Ancho total de un elemento html considera las propiedades css margin, border,
+        width y padding.
+    </p>
+    <a class="border-solid w-100 h-100 d-inline-block" href="">Enlace El Ancho total de un elemento html considera las propiedades css margin, border,
+        width y padding.</a>
+    <a class="border-solid w-300 h-100 d-inline-block" href="">Enlace El Ancho total de un elemento html considera las propiedades css margin, border,
+            width y padding.</a>
+
+    <h1>box-sizing y border-box </h1>
+
+    <p class="border-solid w-500 h-100  ">La propiedad border-sizing utiliza el valor border-box el cual hace que se mantenga su ancho o la medida
+        que hayamos definido en la propiedad width, en cambio si no se utiliza box-sizing los valores del padding,
+        width se suman al total del ancho  </p>
+    <p class="border-solid w-100 h-100 p-40 m-40">Lorem, ipsum dolor.</p>
+    <p class="border-solid w-100 h-100 p-40 m-40 border-box">Lorem, ipsum dolor.</p>
+    <a href="" class="border-solid w-100 h-100 p-40 ">Lorem ipsum dolor sit amet.</a>
+    <a href="" class="border-solid w-100 h-100 p-40 border-box ">Lorem ipsum dolor sit amet.</a>
+
+    <br><br><br><hr>
+    <h1>Normalize CSS</h1>
+
+    <a href="https://necolas.github.io/normalize.css"> https://necolas.github.io/normalize.css</a>
+    <p class="border-solid w-500 h-100  ">Normalize.css hace que los navegadores procesen todos los elementos de manera más consistente y en línea con los estándares modernos. Precisamente se dirige solo a los estilos que necesitan normalizarse.     
+    </p>
+
+    <h1>REM vs EM (Unidades relativas y Absolutas )</h1>
+
+    <p class="border-solid m-40 p-40 w-500 h-100">REM: El estándar de los navegadores es ajustar 1 rem a 16px por lo que las medidas relativas o rem van a varian en función de esta relación es decir 2 rem = 32 px, 3 rem = 48 px, 0.5 rem = 8 px, etc..   
+    </p>
+
+    <p class="border-solid m-40 p-40 w-500">EM: Esta medida se establece automáticamente y funciona ajustando la propiedad que se esté utilizando relativo al nivel superior de su jerarquía,  por ejemplo font-size, si el tag no lo tiene buscará un nivel superior de acuerdo a la jerarquía del CSS y así sucesivamente hasta que la encuentre y entonces aplicará el tamaño relativo a esa medida por ejemplo si el font-size es 10 px y aplicamos la propiedad font-size en el nivel jerarquico inferior a 2em el valor real del font-size será de 20px.
+    </p>
+
+    <p class="border-solid m-40 p-40 w-500"> Para efectos de diseño se recomienda utilizar estrechamente relacionados la propiedad font-size 1rem con la propiedad padding 1em porque de esta manera el ajuste se realiza de manera automática.
+    </p>
+
+
+
+    <br>
+    <br>
+    <div id="navegador" class="text-center d-inline-block mt-50">          
+        <a href="/sitio-11_CSS.html">
+            <button class="bg-primary text-secondary width-200">Anterior</button>
+        </a>
+        <a href="/sitio-14_practica.html">
+            <button class="bg-primary text-secondary width-200">Siguiente</button>
+        </a> 
+    </div>
+
+</body>
+</html>

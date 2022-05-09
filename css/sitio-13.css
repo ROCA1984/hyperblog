@@ -1,0 +1,160 @@
+.bg-primary{
+    background-color: rgb(42, 36, 78);
+}
+.bg-secondary{
+    background-color: rgb(56, 30, 204);
+}
+.bg-info{
+    background-color: rgb(126, 255, 126);
+}
+.text-primary{
+    color: rgb(126, 255, 126);;
+}
+.text-ligth{
+    color: lightgrey;
+}
+.text-secondary{
+    color: rgb(172, 170, 255);
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.width-200{
+    width: 200px;
+}
+
+
+.border-solid{
+    border-style: solid;
+}
+.border-dashed{
+    border-style: dashed;
+}
+
+/*
+Para Cambiar el comportamiento que por defecto establecen los navegadores a los elementos de línea o bloque
+podemos agregar esta propiedad en una clase y agregarla a cada elemento de manera individual, para modificar
+su presentación en la pantalla. De esta manera un elemento de línea se puede mostrar como bloque y un elemento
+de bloque se puede mostrar como un elemento de línea.
+*/
+.display-inline{
+    display: inline;
+}
+.display-block{
+    display: block;
+}
+/*
+Los elementos de bloque (display-block) son los div, h1...h6, p, forms, encabezados o header, footer, section,
+esto quiere decir que los navegadores automáticamente utilizar el ancho de la pantalla para mostrar estos elementos
+mientras que los elementos de línea  como los span, a, img se muestran en el navegados según el ancho de su
+contenido, es decir se acomodan uno al lado del otro hasta completar el ancho de la pantalla.
+*/
+
+/*Padding Superior*/
+.pt-50{
+    padding-top: 50px;
+}
+/*Padding inferior*/
+.pb-50{
+    padding-bottom: 50px;
+}
+/*Padding vertical eje x*/
+.px-100{
+    padding: 0 100px;
+}
+/*Padding horizontal eje y*/
+.py-100{
+    padding: 100px 0;
+}
+/*Padding total declarado en una sola línea de css, cada valor corresponde a una coordenada según el sentido
+horario de un reloj empezando desde el la zona superio.
+(superior, derecho, inferior e izquierdo)*/
+.p-linea{
+    padding: 50px 30px 60px 20px;
+}
+/*Padding total para todos los lados del contenedor.*/
+.p-40{
+    padding: 40px;
+}
+/*Padding total distintas medidas*/
+.p-total{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 500px;
+}
+
+/*margin Superior*/
+.mt-50{
+    margin-top: 50px;
+}
+/*margin inferior*/
+.mb-50{
+    margin-bottom: 50px;
+}
+/*margin vertical eje x*/
+.mx-100{
+    margin: 0 100px;
+}
+/*margin horizontal eje y*/
+.my-100{
+    margin: 100px 0;
+}
+/*margin total declarado en una sola línea de css, cada valor corresponde a una coordenada según el sentido
+horario de un reloj empezando desde el la zona superio.
+(superior, derecho, inferior e izquierdo)*/
+.m-linea{
+    margin: 50px 30px 60px 20px;
+}
+/*margin total para todos los lados del contenedor.*/
+.m-40{
+    margin: 40px;
+}
+/*Padding total distintas medidas*/
+.m-total{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 500px;
+}
+
+/*la distribución de alto y ancho sólo se puede establecer para los slementos de bloque, los elementos inline
+no admiten la modificación de alto ni ancho, para ello se debe establecer en cada elemento la clase que contenga
+la distribución display inline o display block, en este caso la distribución inline-block */
+
+.w-100{
+    width: 100px;
+}
+
+.h-100{
+    height: 100px;
+}
+
+.w-300{
+    width: 300px;
+}
+.w-500{
+    width: 500px;
+}
+
+.h-200{
+    height: 200px;
+}
+/*considerar que aunque se puedan cambiar la distribución inline-block para los elementos de linea, estos se
+distribuirán inline es decir, se puede modificar su alto y ancho pero se agruparán uno al lado de otro, no se creará
+un salto de línea como ocurre por defecto en los elementos de bloque. Para lograr esto se deben incluir otras
+propiedades css.*/
+.d-inline-block{
+    display: inline-block;
+}
+/*CAPITULO 54
+El modelo caja con el que trabaja css considera que para el ancho total de un elemento se debe considerar
+la propiedad width, padding, border y margin*/
+
+.border-box{
+    box-sizing: border-box;
+}

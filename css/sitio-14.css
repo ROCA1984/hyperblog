@@ -1,0 +1,95 @@
+/*Vendor Prefixes
+Every current browser supports box-sizing: border-box; unprefixed, so the need for vendor prefixes is fading. But, if you need to support older versions of Safari (< 5.1), Chrome (< 10), and Firefox (< 29), you should include the prefixes -webkit and -moz, like this:*/
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+/*Para ajustar la propiedad box-sizing a border-box, de esta manera de manera automática se ajustarán los tamaños al contenido de la página.*/
+
+/*
+primary:#03045e
+secondary:#0077b6
+danger: #00b4d8
+info: #90e0ef
+otro: #caf0f8
+*/
+
+body{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    width: 95%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+    width: 6rem;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #03045e ;
+    color: white;
+}
+.btn-secondary{
+    background-color: #0077b6 ;
+    color: white;
+}
+.btn-danger{
+    background-color: #00b4d8 ;
+    color: black;
+}
+.btn-info{
+    background-color: #90e0ef ;
+    color: black;
+}
+.logo{
+    display: block;
+    font-size: 3rem;
+    padding: 0.5em;
+    text-decoration: none;
+    text-align: center;
+    background-color: #03045e;
+    color: white;
+}
+.card{
+    width: 20rem;
+    background-color: #03045e ;
+    overflow: hidden;
+    color: white;
+    border-radius: 0.5rem;
+}
+.card-img{
+    width: 100%;
+}
+.card-body{
+    padding: 1em; 
+}
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.card-body p{
+    font-weight: 300;
+}
